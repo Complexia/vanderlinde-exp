@@ -15,8 +15,9 @@ function NavBar() {
 
             <NavDropdown title="Technology" id="basic-nav-dropdown">
                 <NavDropdown.Item href="#action/3.1">Doge Vanderlinde</NavDropdown.Item>
-                <NavDropdown.Item href="#action/3.2">Shadow Galactic</NavDropdown.Item>
-                <NavDropdown.Item href="#action/3.3">Multi-currency wallet</NavDropdown.Item>
+                <NavDropdown.Item><Link to="/ShadowGalactic">Shadow Galactic</Link></NavDropdown.Item>
+                <NavDropdown.Item href="#action/3.3">Cross-blockchain wallet</NavDropdown.Item>
+                <NavDropdown.Item href="#action/3.3">Colony-X</NavDropdown.Item>
                 <NavDropdown.Divider />
                 <NavDropdown.Item href="#action/3.4">Blog</NavDropdown.Item>
             </NavDropdown>
@@ -25,6 +26,8 @@ function NavBar() {
                 <NavDropdown.Item href="#action/3.1">Documentation</NavDropdown.Item>
                 <NavDropdown.Item href="#action/3.2">Tutorials</NavDropdown.Item>               
             </NavDropdown>
+
+            <Nav.Link href="#blog">Github</Nav.Link>
 
             <Nav.Link href="#blog">Blog</Nav.Link>
 

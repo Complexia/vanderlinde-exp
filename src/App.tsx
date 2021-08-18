@@ -3,23 +3,24 @@ import logo from './logo.svg';
 import './App.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import NavBar from './components/NavBar';
-import InfoBox from './components/InfoBox';
+import InfoSection from './components/InfoSection';
+import ParticipateSection from './components/ParticipateSection';
+import { BrowserRouter, Route } from 'react-router-dom';
+import Switch from 'react-bootstrap/esm/Switch';
+import HomePage from './pages/HomePage';
+import ShadowGalactic from './pages/ShadowGalactic';
 
 function App() {
   return (
-    <div className="App">
-      <NavBar />
-      
-      <div className="App-header">
-        
-        <h1>vanderlinde</h1>
-        <InfoBox />
-        
-      </div>
-     
-        
-      
-    </div>
+    <BrowserRouter>
+        <Switch className="leftVerticalLine">
+
+          <Route path="/" component={ HomePage } exact />
+          <Route path="/ShadowGalactic" component={ ShadowGalactic } exact />
+          
+
+        </Switch>
+      </BrowserRouter>
   );
 }
 
