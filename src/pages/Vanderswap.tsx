@@ -1,16 +1,18 @@
+import { Nav } from "react-bootstrap";
 import InfoBox from "../components/infoBox";
 import NavBar from "../components/NavBar";
 
-function CrossBlockchainWallet() {
-    let content = "A single manager of private keys for multiple blockchains. \
-    Coming soon..."
+function Vanderswap() {
+    let content = "A dex which allows users to pay for swaps with currency other than ether, \
+    taken directly from the pool";
     return (
         <div className="App">
             <NavBar />
             <div className="App-header">
                 <InfoBox content = { content } />
+
             </div>
         </div>
     )
 }
-export default CrossBlockchainWallet;
+export default Vanderswap;

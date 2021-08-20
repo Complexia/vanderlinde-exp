@@ -14,10 +14,11 @@ function NavBar() {
             <Navbar.Collapse className="justify-content-end">
 
             <NavDropdown title="Technology" id="basic-nav-dropdown">
-                <NavDropdown.Item href="#action/3.1">Doge Vanderlinde</NavDropdown.Item>
+                <NavDropdown.Item><Link to="/DogeVanderlinde">Doge Vanderlinde</Link></NavDropdown.Item>
                 <NavDropdown.Item><Link to="/ShadowGalactic">Shadow Galactic</Link></NavDropdown.Item>
-                <NavDropdown.Item href="#action/3.3">Cross-blockchain wallet</NavDropdown.Item>
-                <NavDropdown.Item href="#action/3.3">Colony-X</NavDropdown.Item>
+                <NavDropdown.Item><Link to="/CrossBlockchainWallet">Cross-blockchain Wallet</Link></NavDropdown.Item>
+                <NavDropdown.Item><Link to="/ColonyX">Colony-X</Link></NavDropdown.Item>
+                <NavDropdown.Item><Link to="/Vanderswap">Vanderswap</Link></NavDropdown.Item>
                 <NavDropdown.Divider />
                 <NavDropdown.Item href="#action/3.4">Blog</NavDropdown.Item>
             </NavDropdown>
