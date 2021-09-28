@@ -1,5 +1,5 @@
-import InfoBox from "../components/infoBox";
 import NavBar from "../components/NavBar";
+import InfoBox from "../components/infoBox";
 
 function CrossBlockchainWallet() {
     let content = "A single manager of private keys for multiple blockchains. \
