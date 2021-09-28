@@ -1,4 +1,3 @@
-import { Nav } from "react-bootstrap";
 import InfoBox from "../components/infoBox";
 import NavBar from "../components/NavBar";
 
