@@ -4,9 +4,9 @@ import DiscordBox from "../components/DiscordBox";
 
 function ParticipateSection() {
 
-    let content = "Join our community on discord and go to town! Collaborate on a \
-    project you like or start your own. You can also browse projects in the \
-    Projects section of the site.";
+    let content = `Join our community on discord and go to town! Collaborate on a 
+    project you like or start your own. You can also browse projects in the 
+    Projects section of the site.`;
     return (
         <div className="capa">
 

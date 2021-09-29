@@ -3,8 +3,8 @@ import NavBar from "../components/NavBar";
 
 
 function CrossBlockchainWallet() {
-    let content = "A single manager of private keys for multiple blockchains. \
-    Coming soon..."
+    let content = `A single manager of private keys for multiple blockchains. 
+    Coming soon...`
     return (
         <div className="App">
             <NavBar />

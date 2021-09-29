@@ -2,8 +2,8 @@ import InfoBox from "../components/InfoBox";
 import NavBar from "../components/NavBar";
 
 function DogeVanderlinde() {
-    let content = "A secure decentralized 2 way bridge between Dogecoin and Ethereum. \
-    Coming soon."
+    let content = `A secure decentralized 2 way bridge between Dogecoin and Ethereum. 
+    Coming soon.`;
     return (
         <div className="App">
             <NavBar />
