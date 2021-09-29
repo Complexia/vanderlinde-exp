@@ -1,4 +1,5 @@
-import InfoBox from "./infoBox";
+import InfoBox from "./InfoBox";
+
 
 function InfoSection() {
 

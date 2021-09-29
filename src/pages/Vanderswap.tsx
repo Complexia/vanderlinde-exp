@@ -1,5 +1,6 @@
+import InfoBox from "../components/InfoBox";
 import NavBar from "../components/NavBar";
-import InfoBox from "../components/infoBox";
+
 
 function Vanderswap() {
     let content = "A dex which allows users to pay for swaps with currency other than ether, \
